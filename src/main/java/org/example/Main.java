@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
         printName("Dominic");
         printLoopName("Dominic");
-        biggerThan0(5);
-        squared(5);
+        System.out.println(biggerThan0(5));
+        System.out.println(squared(5));
         printNameWithScanner();
 
     }
