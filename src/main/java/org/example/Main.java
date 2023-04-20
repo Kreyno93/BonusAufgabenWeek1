@@ -15,6 +15,11 @@ public class Main {
         System.out.println(numbers[number - 1]);
     }
 
+    public static String printNumberFromArrayWithTest(int number){
+    String[] numbers = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"};
+    return numbers[number - 1];
+    }
+
     public static void printOneToHundreds() {
 
         for (int i = 1; i <= 100; i++) {
